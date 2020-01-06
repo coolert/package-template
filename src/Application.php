@@ -11,14 +11,9 @@
 
 namespace Coolert\PackageTemplate;
 
-use Coolert\PackageTemplate\Commands\Command;
 use Symfony\Component\Console\Application as BaseApplication;
+use Coolert\PackageTemplate\Commands\Command;
 
-/**
- * Class Application
- *
- * @author coolert <lvhui@gmx.com>
- */
 class Application extends BaseApplication
 {
     /**
@@ -32,4 +27,3 @@ class Application extends BaseApplication
         $this->add(new Command());
     }
 }
-

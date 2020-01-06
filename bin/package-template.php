@@ -14,3 +14,4 @@ if (file_exists(dirname(dirname(__FILE__)).'/vendor/autoload.php')) {
 
 $builder = new Application('Package Template', '@package_version@');
 $builder->run();
+
