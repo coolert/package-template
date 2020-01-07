@@ -6,15 +6,15 @@
             "Coolert\\PackageTemplate\\": "src"
         }
     },
-    "authors": [
-        {
-            "name": "coolert",
-            "email": "lvhui@gmx.com"
-        }
-    ],
     "bin": ["bin/package-template"],
+    "license": "MIT",
     "require": {
         "symfony/console": "^5.0",
         "symfony/filesystem": "^5.0"
-    }
+    },
+    "authors": [
+    {
+        "name": "coolert",
+        "email": "lvhui@gmx.com"
+    }]
 }
